@@ -25,5 +25,5 @@ We'd like authors to provide a `challenge.yml` file which details the necessary 
 The majority of our challenges are hosted and deployed using `docker-compose`, or are static files that a distributed to the CTF players through the dashboard. If your challenge doesn't work that way, no stress, reach out to the team and we can discuss how to accomdate hosting your challenge.
 
 ## How To Submit?
-Once you have completed your challenge, get in contact with `n0mad17` via Discord or post in the `#CTF` channel in the Bsides Discord https://discord.com/invite/A8KUcuuGQC.  
+Once you have completed your challenge, get in contact with `n0mad17` via Discord or post in the `#ctf-volunteers` channel in the Bsides Discord https://discord.com/invite/A8KUcuuGQC.  
 We will can create a private github repository for you to submit your challenge through, and if it is accepted it will be merged into our main challenges repo!
