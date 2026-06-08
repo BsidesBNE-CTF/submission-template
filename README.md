@@ -11,7 +11,7 @@ Almost anything you like! We typically have all the following CTF categories:
 * Trivia
 * Misc
 
-Difficulty ranges from beginner challenges (Admin=1 cookie) through to exploiting nuanced programming language quirks or hardware hacking challenges.
+Difficulty ranges from beginner challenges (Admin=1 cookie) through to exploiting nuanced programming language quirks or hardware hacking challenges. Our web / network based challenges will be deployed in a way that ensures each team has their own copy of the challenge.
 
 ##  Submission Files
 To assist with your submission, this repository contains an example directory structure for you to follow along.
@@ -22,8 +22,8 @@ We'd like authors to provide a `challenge.yml` file which details the necessary 
 * `dist/` should contain any files which will be published to the CTFd Board for challengers to see. 
 
 ## Deployment
-The majority of our challenges are hosted and deployed using `docker-compose`, or are static files that a distributed to the CTF players through the dashboard. If your challenge doesn't work that way, no stress, reach out to the team and we can discuss how to accomdate hosting your challenge.
+We prefer challenge submissions which are `docker` containers, or are static files that can distributed to the CTF players through the dashboard. If your challenge doesn't work that way, no stress, reach out to the team and we can discuss how to accomdate hosting your challenge. Our web/network based challenges will be hosted in a `k8s` cluster, with each team provided their own copy of the challenge. Our infra team will take care of converting any `docker` based challenges into appropriate `helm` charts for the cluster.
 
 ## How To Submit?
-Once you have completed your challenge, get in contact with `n0mad17_` via Discord or post in the `#ctf-volunteers` channel in the Bsides Discord https://discord.com/invite/A8KUcuuGQC.  
+Once you have completed your challenge, get in contact with `n0mad17_` via Discord or post in the `#ctf-general` channel in the [Bsides Discord](https://discord.com/invite/A8KUcuuGQC).  
 We will can create a private github repository for you to submit your challenge through, and if it is accepted it will be merged into our main challenges repo!
