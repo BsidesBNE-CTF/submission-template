@@ -25,5 +25,4 @@ We'd like authors to provide a `challenge.yml` file which details the necessary 
 We prefer challenge submissions which are `docker` containers, or are static files that can distributed to the CTF players through the dashboard. If your challenge doesn't work that way, no stress, reach out to the team and we can discuss how to accomdate hosting your challenge. Our web/network based challenges will be hosted in a `k8s` cluster, with each team provided their own copy of the challenge. Our infra team will take care of converting any `docker` based challenges into appropriate `helm` charts for the cluster.
 
 ## How To Submit?
-Once you have completed your challenge, get in contact with `n0mad17_` via Discord or post in the `#ctf-general` channel in the [Bsides Discord](https://discord.com/invite/A8KUcuuGQC).  
-We will can create a private github repository for you to submit your challenge through, and if it is accepted it will be merged into our main challenges repo!
+Once you have completed your challenge, get in contact with `n0mad17_` via Discord or post in the `#ctf-general` channel in the [Bsides Discord](https://discord.com/invite/A8KUcuuGQC).
